@@ -14,12 +14,12 @@ class Navire {
   bool isCoule()const; //vérifie si un bateau est coulé
   void rotation (); // pivote le bateau
 
-  //Accesseurs
+  //Accesseurs en lecture
   bool getOrientation()const;
   bool getEtat()const;
   int getTaille()const;
 
-  //
+  //Accesseurs en ecriture
   void setOrientation(bool orientation);
   void setEtat(bool etat); //paramètres constants?
 
